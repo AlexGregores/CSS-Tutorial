@@ -1,0 +1,101 @@
+
+#p1{
+width: 240px;
+height: 100px;
+background-color: red;
+font-size: 100px;
+text-align: center;
+margin: 0px;
+
+animation-name: myrotateanimation;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+#p2{
+    width: 240px;
+    height: 100px;
+    background-color: red;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+    
+    animation-name: mytranslate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    
+    
+    }
+
+    #p3{
+        width: 240px;
+        height: 100px;
+        background-color: red;
+        font-size: 100px;
+        text-align: center;
+        margin: 0px;
+        
+        animation-name: myscale;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        
+        
+        
+        }
+
+        #p4{
+            width: 200px;
+            height: 120px;
+            background-color: red;
+            font-size: 100px;
+            text-align: center;
+            margin: 0px;
+            
+            animation-name: myopacity;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+            
+            
+            }
+            #p5{
+                width: 200px;
+                height: 120px;
+                background-color: red;
+                font-size: 100px;
+                text-align: center;
+                margin: 0px;
+                
+                animation-name: myfont;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                
+                
+                
+                }
+            
+@keyframes myrotateanimation{
+    100% {transform: rotate(360deg);}
+}
+@keyframes mytranslate{
+    50%{transform: translate(100px,0);}
+}
+
+@keyframes myscale {
+    50%{transform: scale(0.5,0.5);}
+}
+@keyframes myopacity{
+    0%{opacity: 0;}
+    50%( opacity:1;)
+    100%(opacity: 0;)
+}
+
+@keyframes myfont{
+    0%{font-size: 85px;}
+    50%{font-size: 400px;}
+}
+

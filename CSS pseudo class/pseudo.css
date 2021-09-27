@@ -1,0 +1,36 @@
+a:link{
+    color: #78ffd0;
+}
+a:visited{
+    color: #d359ff;
+}
+button:hover{
+    background-color: #ff4529;
+    color: white;
+}
+button:active{
+    background-color: #d13b24;
+}
+
+li:first-child{
+    background-color: #93ff7d;
+    
+}
+li:last-child{
+    background-color: #78ffd0;
+
+}
+li:nth-child(3){
+    background-color: aqua;
+}
+li:nth-child(6){
+    background-color: burlywood;
+}
+/*
+li:nth-child(odd){
+    background-color: chartreuse;
+}
+li:nth-child(even){
+    background-color: cyan;
+}*/
+

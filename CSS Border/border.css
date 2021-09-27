@@ -1,0 +1,18 @@
+p{
+    border-style: solid;padding: 5px;
+    border-style: double;
+    border-style: hidden;
+    border-style: inherit;
+    border-style: inset;
+    border-color: lawngreen;
+    border: radius 10px;
+    border-top-style: dashed; 
+    border-left: 0vmax; 
+    border-right: 0rem; 
+    border-color: beige;
+    color: aliceblue; 
+    border-collapse: inherit;
+    
+}
+h1{border-style: inset;border-color: lawngreen;color: aliceblue;}
+body{background-color: black;}

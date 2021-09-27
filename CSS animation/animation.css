@@ -1,0 +1,16 @@
+#p1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+animation: mycloranimation;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes mycloranimation{
+    from{ background-color: red;}
+    to{background-color: black;}
+   
+}
